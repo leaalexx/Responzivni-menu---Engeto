@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: url(menu.jpg);
+  height: 70px;
+}
+
+header p:hover {
+  color: #1e8178;
+  transition: color 0.3s ease-in-out;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+.logo img {
+  width: 200px;
+  margin-left: 20px;
+}
+
+nav {
+  margin-right: 30px;
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-icon {
+  display: none;
+  margin-right: 30px;
+}
+
+.welcome {
+  background: url("img/background2.jpg");
+  min-height: calc(100vh - 70px);
+  background-size: cover;
+  background-position: center;
+}
+
+.hp_characters {
+  display: grid;
+  max-width: 100%;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.photo {
+  height: 400px;
+  width: 100%;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 1;
+}
+
+.hermione {
+  background-image: url(./characters/hermione.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.ron {
+  background-image: url(./characters/ron.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.harry {
+  background-image: url(./characters/harry.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.hermione:hover,
+.ron:hover,
+.harry:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  z-index: 2;
+  box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+}
