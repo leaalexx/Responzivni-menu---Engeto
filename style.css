@@ -48,7 +48,7 @@ nav li a {
 }
 
 .welcome {
-  background: url("img/background2.jpg");
+  background: url("./img/menu.jpg");
   min-height: calc(100vh - 70px);
   background-size: cover;
   background-position: center;
