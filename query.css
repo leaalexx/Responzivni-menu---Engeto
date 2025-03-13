@@ -6,7 +6,7 @@
     display: none;
     position: absolute;
     top: 70px;
-    background-image: url(./img/menu.jpg);
+    background-image: url(menu.jpg);
     width: 100%;
   }
   header nav li {
